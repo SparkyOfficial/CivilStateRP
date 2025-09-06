@@ -1,0 +1,16 @@
+{
+  "npcType": "recruiter",
+  "greeting": "Добро пожаловать в Центр трудоустройства Альянса. Чем могу помочь?",
+  "options": [
+    { "text": "Я хочу подать заявку на должность Лоялиста.", "actionId": "apply_loyalist", "condition": "high_loyalty" },
+    { "text": "Меня интересует служба в Гражданской Обороне.", "actionId": "apply_cp", "condition": "is_loyalist" },
+    { "text": "Расскажите о доступных должностях.", "actionId": "list_jobs" },
+    { "text": "Ничем, всего доброго.", "actionId": "goodbye" }
+  ],
+  "responses": {
+    "apply_loyalist": { "text": "Отлично. Ваша заявка на должность Лоялиста принята к рассмотрению.", "followUpAction": "join_loyalist" },
+    "apply_cp": { "text": "Служба в ГО требует высокой преданности Альянсу. Заявка направлена на рассмотрение.", "followUpAction": "join_civil_protection" },
+    "list_jobs": { "text": "Альянс предлагает множество возможностей для лояльных граждан: должности Лоялистов, служба в ГО, работа в ГСР..." },
+    "goodbye": { "text": "Всего доброго, гражданин. Помните - Альянс заботится о вас.", "closesDialogue": true }
+  }
+}

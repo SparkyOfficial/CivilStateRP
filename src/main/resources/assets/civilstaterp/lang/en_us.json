@@ -1,0 +1,326 @@
+# CivilStateRP Localization - English
+
+# Items
+item.civilstaterp.cid_card=CID Card
+item.civilstaterp.cid_card.owner=Owner: %s
+item.civilstaterp.cid_card.number=CID: %s
+item.civilstaterp.cid_card.profession=Profession: %s
+item.civilstaterp.cid_card.loyalty=Loyalty: %s
+item.civilstaterp.cid_card.usage1=Right-click to show to nearby players
+item.civilstaterp.cid_card.usage2=Right-click on player to show directly
+item.civilstaterp.cid_card.shown=You showed your CID card
+item.civilstaterp.cid_card.shown_to=You showed your CID card to %s
+item.civilstaterp.cid_card.viewing=Viewing %s's CID card
+
+item.civilstaterp.suitcase=Suitcase
+item.civilstaterp.suitcase.owner=Owner: %s
+item.civilstaterp.suitcase.locked=Locked
+item.civilstaterp.suitcase.items=Contains %d items
+item.civilstaterp.suitcase.empty=Empty
+item.civilstaterp.suitcase.usage=Right-click to open
+
+item.civilstaterp.radio=Radio
+item.civilstaterp.radio.channel=Channel: %d
+item.civilstaterp.radio.no_channel=No channel set
+item.civilstaterp.radio.encrypted=Encrypted
+item.civilstaterp.radio.usage=Right-click to open radio interface
+
+item.civilstaterp.scanner=Scanner Device
+item.civilstaterp.taser=Taser
+item.civilstaterp.baton=Stun Baton
+item.civilstaterp.zip_tie=Zip Tie
+item.civilstaterp.request_device=Request Device
+item.civilstaterp.contraband_package=Contraband Package
+item.civilstaterp.contraband_weapon=Contraband Weapon
+item.civilstaterp.contraband_substance=Contraband Substance
+item.civilstaterp.evidence_bag=Evidence Bag
+item.civilstaterp.photo_evidence=Photo Evidence
+
+# Blocks
+block.civilstaterp.suitcase_block=Suitcase Block
+block.civilstaterp.suitcase.claimed=Suitcase claimed successfully
+block.civilstaterp.suitcase.not_owner=You don't own this suitcase
+block.civilstaterp.suitcase.cid_issued=CID card issued
+
+block.civilstaterp.scanner_block=Scanner
+block.civilstaterp.ration_dispenser=Ration Dispenser
+block.civilstaterp.security_door=Security Door
+block.civilstaterp.evidence_chest=Evidence Chest
+block.civilstaterp.comm_terminal=Communication Terminal
+block.civilstaterp.checkpoint_gate=Checkpoint Gate
+
+# GUI
+gui.civilstaterp.cmenu.title=Civil Control Menu
+gui.cmenu.identity=Identity
+gui.cmenu.inventory=Inventory
+gui.cmenu.radio=Radio
+gui.cmenu.requests=Requests
+gui.cmenu.actions=Actions
+gui.cmenu.settings=Settings
+
+gui.civilstaterp.identity.title=Identity Management
+gui.identity.show_cid=Show CID
+gui.common.back=Back
+
+gui.civilstaterp.radio.title=Radio Communication
+gui.radio.channel=Channel
+gui.radio.message=Message
+gui.radio.set_channel=Set Channel
+gui.radio.send=Send
+gui.radio.current_channel=Current Channel: %d
+
+gui.civilstaterp.actions.title=RP Actions
+gui.actions.me=/me Action
+gui.actions.do=/do Action
+gui.actions.search=Search Player
+gui.actions.emote=Emotes
+
+# Commands
+command.civilstaterp.suitcase.blocked=Cannot place suitcase here - space is blocked
+command.civilstaterp.suitcase.already_exists=You already have a suitcase nearby
+command.civilstaterp.suitcase.placed=Suitcase placed successfully
+
+command.civilstaterp.profession.npc_spawned=Profession NPC spawned
+command.civilstaterp.profession.spawn_failed=Failed to spawn profession NPC
+command.civilstaterp.profession.invalid=Invalid profession: %s
+command.civilstaterp.profession.no_data=Player data not found
+command.civilstaterp.profession.requirements_not_met=You don't meet the requirements for %s
+command.civilstaterp.profession.started=Started profession change to %s (ETA: %d hours)
+
+command.civilstaterp.government.no_permission=You don't have permission to spawn government officials
+command.civilstaterp.government.npc_spawned=Government official NPC spawned
+command.civilstaterp.government.spawn_failed=Failed to spawn government official NPC
+
+command.civilstaterp.ota.no_permission=You don't have permission to spawn OTA units
+command.civilstaterp.ota.npc_spawned=OTA unit spawned
+command.civilstaterp.ota.spawn_failed=Failed to spawn OTA unit
+
+# Key bindings
+key.categories.civilstaterp=CivilStateRP
+key.civilstaterp.c_menu=Open C-Menu
+key.civilstaterp.show_cid=Show CID
+key.civilstaterp.quick_radio=Quick Radio
+key.civilstaterp.toggle_hud=Toggle HUD
+key.civilstaterp.f4_menu=Open F4 Menu
+
+# Professions
+profession.citizen=Citizen
+profession.loyalist=Loyalist
+profession.trusted_loyalist=Trusted Loyalist
+profession.civil_protection=Civil Protection
+profession.ota=Overwatch Transhuman Arm
+profession.government_official=Government Official
+profession.resistance=Resistance Member
+
+# Loyalty Tiers
+loyalty.exemplary=Exemplary
+loyalty.loyal=Loyal
+loyalty.acceptable=Acceptable
+loyalty.concerning=Concerning
+loyalty.anti_citizen=Anti-Citizen
+
+# Status
+status.detained=DETAINED
+status.wanted=WANTED
+status.lockdown=LOCKDOWN
+status.active=ACTIVE
+
+# Ranks
+rank.cp.recruit=Recruit
+rank.cp.officer=Officer
+rank.cp.sergeant=Sergeant
+rank.cp.lieutenant=Lieutenant
+rank.cp.captain=Captain
+
+rank.ota.unit=Unit
+rank.ota.soldier=Soldier
+rank.ota.elite=Elite
+rank.ota.commander=Commander
+
+rank.go.clerk=Clerk
+rank.go.administrator=Administrator
+rank.go.deputy=Deputy
+rank.go.director=Director
+
+# Messages
+message.radio.channel_set=Radio channel set to %d
+message.radio.message_sent=Message sent on channel %d
+message.search.initiated=Search initiated on %s
+message.detain.success=%s has been detained
+message.detain.release=%s has been released
+message.loyalty.updated=Loyalty updated for %s: %d%%
+
+# Criminal System
+criminal.requirements_not_met=You don't meet the requirements for %s (Level %d, %d tokens)
+criminal.cannot_become=You cannot become a criminal with high loyalty
+criminal.not_criminal=You are not a criminal!
+criminal.already_researching=You are already committing a crime
+criminal.field_locked=Crime type %s is locked
+criminal.level_required=Level %d required for %s
+criminal.research_started=Started crime %s (ETA: %d minutes)
+criminal.no_active_research=No active crime in progress
+criminal.research_not_ready=Crime not ready yet (%d minutes remaining)
+criminal.research_completed=Crime %s completed! Reward: %d tokens
+criminal.breakthrough_reward=BREAKTHROUGH! %s completed with bonus: %d tokens
+criminal.level_up=Criminal level increased to %d!
+criminal.welcome=Welcome to the criminal underworld!
+
+# Shop System
+shop.purchase_success=Successfully purchased %s
+shop.insufficient_funds=Insufficient tokens! Need: %d
+shop.no_permission=You don't have access to this item!
+shop.inventory_full=Not enough inventory space!
+shop.category_basic=Basic Items
+shop.category_tools=Tools
+shop.category_weapons=Weapons
+shop.category_special=Special Items
+shop.category_restricted=Restricted Items
+
+# F4 Menu
+f4.menu.title=HL2RP City 17
+f4.menu.professions=Professions
+f4.menu.shop=Shop
+f4.menu.criminal=Criminal
+f4.menu.factions=Factions
+f4.menu.inventory=Inventory
+f4.menu.settings=Settings
+f4.menu.help=Help
+f4.menu.exit=Exit
+
+# GSR System
+gsr.registered=Successfully joined GSR as %s
+gsr.cannot_join=Cannot join GSR - insufficient loyalty or wrong profession
+gsr.not_worker=You are not a GSR worker
+gsr.already_on_shift=You are already on shift
+gsr.shift_cooldown=Shift cooldown: %d minutes remaining
+gsr.shift_started=Started %s shift
+gsr.not_on_shift=You are not on shift
+gsr.shift_ended=Shift ended. Earned %d tokens, completed %d tasks
+gsr.no_tasks=No tasks assigned
+gsr.task_not_found=Task not found
+gsr.task_already_completed=Task already completed
+gsr.task_completed=Task completed: %s (+%d tokens)
+gsr.tasks_assigned=%d tasks assigned
+gsr.new_task_assigned=New task: %s
+gsr.passive_earning=Passive earning: +%d tokens
+gsr.work_bonus=Work bonus: +%d tokens (%s)
+
+gui.gsr_management.title=GSR Management
+gui.gsr.overview=Overview
+gui.gsr.tasks=Tasks
+gui.gsr.stats=Statistics
+gui.gsr.join=Join as %s
+gui.gsr.start_shift=Start Shift
+gui.gsr.end_shift=End Shift
+gui.gsr.change_profession=Change Profession
+gui.gsr.opening=Opening GSR interface...
+
+cmenu.gsr.not_member=Not a GSR member
+cmenu.gsr.click_to_join=Click to join GSR
+cmenu.gsr.current_profession=Profession: %s
+cmenu.gsr.click_to_manage=Click to manage GSR
+
+# GSR Professions
+gsr.profession.cleaner=Cleaner
+gsr.profession.cook=Cook
+gsr.profession.medic=Medic
+gsr.profession.loader=Loader
+gsr.profession.machinist=Machinist
+gsr.profession.gsr_chief=GSR Chief
+
+# Resistance System
+resistance.registered=Successfully joined the Resistance as %s
+resistance.no_recruit_permission=You don't have permission to recruit members
+resistance.target_not_eligible=Target is not eligible for recruitment
+resistance.recruitment_cooldown=Recruitment cooldown: %d hours remaining
+resistance.recruitment_success=Successfully recruited %s to the Resistance
+resistance.welcomed=Welcome to the Resistance! Fight for freedom!
+resistance.no_promote_permission=You don't have permission to promote members
+resistance.cannot_promote=Cannot promote this member
+resistance.promotion_success=Member promoted to %s
+resistance.no_operation_permission=You don't have permission to manage operations
+resistance.already_in_operation=You are already in an operation
+resistance.operation_started=Operation '%s' started
+resistance.printer.created=Money printer created successfully
+resistance.printer.destroyed=Money printer destroyed
+resistance.printer.fuel_added=Fuel added to printer
+resistance.printer.paper_added=Paper added to printer
+resistance.printer.production=Money printer produced %d tokens
+resistance.safehouse.created=Safehouse '%s' created
+resistance.safehouse.access_granted=Access granted to safehouse
+resistance.safehouse.maintenance_due=Safehouse maintenance payment due
+
+# Resistance Ranks
+resistance.rank.recruit=Recruit
+resistance.rank.fighter=Fighter
+resistance.rank.specialist=Specialist
+resistance.rank.squad_leader=Squad Leader
+resistance.rank.commander=Commander
+resistance.rank.leader=Resistance Leader
+
+# Resistance Equipment
+resistance.equipment.crowbar=Crowbar
+resistance.equipment.pipe_rifle=Pipe Rifle
+resistance.equipment.shotgun=Shotgun
+resistance.equipment.assault_rifle=Assault Rifle
+resistance.equipment.sniper_rifle=Sniper Rifle
+resistance.equipment.makeshift_armor=Makeshift Armor
+resistance.equipment.rebel_vest=Rebel Vest
+resistance.equipment.combat_armor=Combat Armor
+resistance.equipment.radio_jammer=Radio Jammer
+resistance.equipment.medkit=Medkit
+resistance.equipment.lockpick_set=Lockpick Set
+resistance.equipment.explosives=Explosives
+
+# Scientist System
+scientist.cannot_become=Cannot become scientist - requirements not met
+scientist.welcome=Welcome to Black Mesa Research Facility!
+scientist.not_scientist=You are not a scientist
+scientist.already_researching=You are already conducting research
+scientist.field_locked=Research field '%s' is not unlocked
+scientist.level_required=Level %d required for %s research
+scientist.research_started=Started research: %s (ETA: %d minutes)
+scientist.no_active_research=No active research projects
+scientist.research_not_ready=Research not complete. %d minutes remaining
+scientist.breakthrough_reward=BREAKTHROUGH! %s research completed (+%d tokens)
+scientist.research_completed=Research completed: %s (+%d tokens)
+scientist.level_up=Scientist level increased to %d!
+
+# Research Fields
+scientist.field.theoretical_physics=Theoretical Physics
+scientist.field.experimental_physics=Experimental Physics
+scientist.field.biochemistry=Biochemistry
+scientist.field.xenobiology=Xenobiology
+scientist.field.materials_science=Materials Science
+scientist.field.quantum_mechanics=Quantum Mechanics
+scientist.field.teleportation_tech=Teleportation Technology
+scientist.field.dimensional_research=Dimensional Research
+
+# Black Mesa Facility
+block.civilstaterp.research_terminal=Research Terminal
+block.civilstaterp.specimen_container=Specimen Container
+block.civilstaterp.test_chamber=Test Chamber
+
+# Vortigaunt System
+vortigaunt.enslaved=*Enslaved by Alliance* - Vortigaunt in suppressed state
+vortigaunt.free=*Free* - Vortigaunt ready for interaction
+vortigaunt.relationship=Relationship: %s
+vortigaunt.communion_level=Communion Level: %d/%d
+vortigaunt.abilities_unavailable=Abilities unavailable - Vortigaunt is enslaved
+vortigaunt.heal_available=[H] Healing - Restore health
+vortigaunt.heal_cooldown=[H] Healing (%dm)
+vortigaunt.energy_available=[E] Energy Gift - Receive tokens
+vortigaunt.energy_cooldown=[E] Energy Gift (%dm)
+vortigaunt.communion_available=[C] Spiritual Communion - Strengthen bond
+vortigaunt.liberate_available=[L] Liberation - Free enslaved ones
+vortigaunt.heal_performed=*Healing energy flows through you*
+vortigaunt.energy_gift=*I gift you part of our energy* (+%d tokens)
+vortigaunt.communion_bond=*Our souls are now connected*
+vortigaunt.communion_strengthen=*The communion grows stronger... level %d*
+vortigaunt.liberate_success=*%d of our brothers have been freed*
+vortigaunt.liberate_none=*No enslaved ones nearby*
+vortigaunt.relationship.stranger=Stranger
+vortigaunt.relationship.acquaintance=Acquaintance
+vortigaunt.relationship.trusted_friend=Trusted Friend
+vortigaunt.relationship.close_ally=Close Ally
+vortigaunt.relationship.spiritual_brother=Spiritual Brotherhood

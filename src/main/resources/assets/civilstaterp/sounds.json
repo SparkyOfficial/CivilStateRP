@@ -1,0 +1,554 @@
+{
+  "ambient_city_17": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "civilstaterp:ambient/city_17_1",
+        "volume": 0.3,
+        "pitch": 1.0,
+        "weight": 1
+      },
+      {
+        "name": "civilstaterp:ambient/city_17_2", 
+        "volume": 0.3,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "ambient_citadel": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "civilstaterp:ambient/citadel_hum",
+        "volume": 0.4,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "ambient_canals": {
+    "category": "ambient", 
+    "sounds": [
+      {
+        "name": "civilstaterp:ambient/canals_drip",
+        "volume": 0.25,
+        "pitch": 1.0,
+        "weight": 1
+      },
+      {
+        "name": "civilstaterp:ambient/canals_water",
+        "volume": 0.3,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "ambient_industrial": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "civilstaterp:ambient/industrial_machinery",
+        "volume": 0.35,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "hev_startup": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "civilstaterp:hev/startup",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "hev_shutdown": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "civilstaterp:hev/shutdown",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "hev_power_low": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "civilstaterp:hev/power_low",
+        "volume": 0.8,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "scanner_scan": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "civilstaterp:scanner/scan_1",
+        "volume": 0.6,
+        "pitch": 1.0,
+        "weight": 1
+      },
+      {
+        "name": "civilstaterp:scanner/scan_2",
+        "volume": 0.6,
+        "pitch": 1.1,
+        "weight": 1
+      }
+    ]
+  },
+  "scanner_alarm": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "civilstaterp:scanner/alarm",
+        "volume": 1.2,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "scanner_deploy": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "civilstaterp:scanner/deploy",
+        "volume": 0.8,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "cp_radio_chatter": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "civilstaterp:cp/radio_chatter_1",
+        "volume": 0.4,
+        "pitch": 1.0,
+        "weight": 1
+      },
+      {
+        "name": "civilstaterp:cp/radio_chatter_2",
+        "volume": 0.4,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "baton_activate": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "civilstaterp:equipment/baton_activate",
+        "volume": 0.7,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "baton_shock": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "civilstaterp:equipment/baton_shock",
+        "volume": 0.8,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "taser_fire": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "civilstaterp:equipment/taser_fire",
+        "volume": 0.7,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "zip_tie_bind": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "civilstaterp:equipment/zip_tie_bind",
+        "volume": 0.5,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "ration_dispense": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "civilstaterp:ration/dispense",
+        "volume": 0.7,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "ration_error": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "civilstaterp:ration/error",
+        "volume": 0.6,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "supply_delivery": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "civilstaterp:ration/supply_delivery",
+        "volume": 0.8,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "crowbar_swing": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "civilstaterp:resistance/crowbar_swing",
+        "volume": 0.8,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "resistance_radio": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "civilstaterp:resistance/radio_chatter",
+        "volume": 0.3,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "money_printer_work": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "civilstaterp:resistance/printer_work",
+        "volume": 0.5,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "money_printer_breakdown": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "civilstaterp:resistance/printer_breakdown",
+        "volume": 0.8,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "research_complete": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "civilstaterp:scientist/research_complete",
+        "volume": 0.7,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "specimen_container_open": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "civilstaterp:scientist/container_open",
+        "volume": 0.6,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "test_chamber_activate": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "civilstaterp:scientist/test_chamber_activate",
+        "volume": 0.8,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "resonance_cascade": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "civilstaterp:scientist/resonance_cascade",
+        "volume": 1.5,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "vortigaunt_heal": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "civilstaterp:vortigaunt/heal",
+        "volume": 0.8,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "vortigaunt_energy_gift": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "civilstaterp:vortigaunt/energy_gift",
+        "volume": 0.7,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "vortigaunt_communion": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "civilstaterp:vortigaunt/communion",
+        "volume": 0.9,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "vortigaunt_liberate": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "civilstaterp:vortigaunt/liberate",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "c_menu_open": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "civilstaterp:ui/c_menu_open",
+        "volume": 0.5,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "c_menu_select": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "civilstaterp:ui/c_menu_select",
+        "volume": 0.4,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "cid_scan": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "civilstaterp:ui/cid_scan",
+        "volume": 0.6,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "suitcase_lock": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "civilstaterp:ui/suitcase_lock",
+        "volume": 0.5,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "suitcase_unlock": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "civilstaterp:ui/suitcase_unlock",
+        "volume": 0.5,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "civil_protection_alert": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "civilstaterp:alerts/cp_alert",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "lockdown_alarm": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "civilstaterp:alerts/lockdown_alarm",
+        "volume": 1.2,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "violation_detected": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "civilstaterp:alerts/violation_detected",
+        "volume": 0.8,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "loyalty_up": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "civilstaterp:ui/loyalty_up",
+        "volume": 0.6,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "loyalty_down": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "civilstaterp:ui/loyalty_down",
+        "volume": 0.6,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "gsr_shift_start": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "civilstaterp:gsr/shift_start",
+        "volume": 0.7,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "gsr_shift_end": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "civilstaterp:gsr/shift_end",
+        "volume": 0.7,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "task_complete": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "civilstaterp:tasks/complete",
+        "volume": 0.6,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "task_assign": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "civilstaterp:tasks/assign",
+        "volume": 0.5,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "profession_change": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "civilstaterp:ui/profession_change",
+        "volume": 0.8,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "rank_promotion": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "civilstaterp:ui/rank_promotion",
+        "volume": 0.9,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "criminal_activity": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "civilstaterp:criminal/activity",
+        "volume": 0.4,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  },
+  "contraband_detected": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "civilstaterp:alerts/contraband_detected",
+        "volume": 0.9,
+        "pitch": 1.0,
+        "weight": 1
+      }
+    ]
+  }
+}

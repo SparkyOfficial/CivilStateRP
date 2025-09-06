@@ -1,0 +1,21 @@
+# GSR Management GUI Texture Info
+# This file describes the texture layout for gsr_management.png
+# 
+# Texture Size: 256x240 pixels
+# Background Color: Dark Gray (#2C2C2C)
+# 
+# Layout:
+# - Header area (0,0) to (256,30): Title bar with GSR logo
+# - Tab buttons (10,20) to (210,40): Overview, Tasks, Statistics buttons
+# - Content area (10,50) to (246,220): Main content display
+# - Footer area (0,220) to (256,240): Status bar
+# 
+# Elements:
+# - Button normal state: Light gray (#4A4A4A)
+# - Button hover state: Medium gray (#5A5A5A)
+# - Button active state: Blue (#2196F3)
+# - Text color: White (#FFFFFF)
+# - Accent color: Green (#4CAF50)
+# 
+# This texture should be created by the texture pack team
+# and placed in assets/civilstaterp/textures/gui/gsr_management.png

@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+issueTrackerURL="https://github.com/civilstaterp/hl2rp-mod/issues"
+
+[[mods]]
+modId="civilstaterp"
+version="${file.jarVersion}"
+displayName="CivilStateRP - Half-Life 2 Roleplay"
+logoFile="logo.png"
+credits="CivilStateRP Development Team"
+authors="CivilStateRP Team"
+description='''
+A comprehensive Half-Life 2 Roleplay modification for Minecraft 1.16.5.
+Features include:
+- Complete roleplay systems with professions and loyalty
+- Custom HUD and C-Menu interface
+- Advanced NPC interactions and faction systems
+- Comprehensive economy with tokens and black market
+- Search, detain, and security mechanics
+- Dispatch and grid control systems
+'''
+
+[[dependencies.civilstaterp]]
+modId="forge"
+mandatory=true
+versionRange="[36,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.civilstaterp]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5]"
+ordering="NONE"
+side="BOTH"

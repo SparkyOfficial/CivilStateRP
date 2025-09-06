@@ -1,0 +1,425 @@
+# CivilStateRP Localization - Russian
+
+# Items
+item.civilstaterp.cid_card=Карта ГО
+item.civilstaterp.cid_card.owner=Владелец: %s
+item.civilstaterp.cid_card.number=ГО: %s
+item.civilstaterp.cid_card.profession=Профессия: %s
+item.civilstaterp.cid_card.loyalty=Лояльность: %s
+item.civilstaterp.cid_card.usage1=ПКМ чтобы показать рядом стоящим
+item.civilstaterp.cid_card.usage2=ПКМ по игроку чтобы показать напрямую
+item.civilstaterp.cid_card.shown=Вы показали свою карту ГО
+item.civilstaterp.cid_card.shown_to=Вы показали свою карту ГО игроку %s
+item.civilstaterp.cid_card.viewing=Просмотр карты ГО игрока %s
+
+item.civilstaterp.suitcase=Чемодан
+item.civilstaterp.suitcase.owner=Владелец: %s
+item.civilstaterp.suitcase.locked=Заблокирован
+item.civilstaterp.suitcase.items=Содержит %d предметов
+item.civilstaterp.suitcase.empty=Пустой
+item.civilstaterp.suitcase.usage=ПКМ чтобы открыть
+
+item.civilstaterp.radio=Рация
+item.civilstaterp.radio.channel=Канал: %d
+item.civilstaterp.radio.no_channel=Канал не установлен
+item.civilstaterp.radio.encrypted=Зашифровано
+item.civilstaterp.radio.usage=ПКМ чтобы открыть интерфейс рации
+
+item.civilstaterp.scanner=Сканирующее устройство
+item.civilstaterp.taser=Электрошокер
+item.civilstaterp.baton=Электродубинка
+item.civilstaterp.zip_tie=Стяжка
+item.civilstaterp.request_device=Устройство запросов
+item.civilstaterp.contraband_package=Контрабандная посылка
+item.civilstaterp.contraband_weapon=Контрабандное оружие
+item.civilstaterp.contraband_substance=Контрабандное вещество
+item.civilstaterp.evidence_bag=Пакет с уликами
+item.civilstaterp.photo_evidence=Фото-улика
+
+# Blocks
+block.civilstaterp.suitcase_block=Блок чемодана
+block.civilstaterp.suitcase.claimed=Чемодан успешно получен
+block.civilstaterp.suitcase.not_owner=Этот чемодан не принадлежит вам
+block.civilstaterp.suitcase.cid_issued=Карта ГО выдана
+
+block.civilstaterp.scanner_block=Сканер
+block.civilstaterp.ration_dispenser=Раздатчик пайков
+block.civilstaterp.security_door=Охранная дверь
+block.civilstaterp.evidence_chest=Сундук улик
+block.civilstaterp.comm_terminal=Терминал связи
+block.civilstaterp.checkpoint_gate=Ворота КПП
+
+# GUI
+gui.civilstaterp.cmenu.title=Меню гражданского контроля
+gui.cmenu.identity=Личность
+gui.cmenu.inventory=Инвентарь
+gui.cmenu.radio=Рация
+gui.cmenu.requests=Запросы
+gui.cmenu.actions=Действия
+gui.cmenu.settings=Настройки
+
+gui.civilstaterp.identity.title=Управление личностью
+gui.identity.show_cid=Показать ГО
+gui.common.back=Назад
+
+gui.civilstaterp.radio.title=Радиосвязь
+gui.radio.channel=Канал
+gui.radio.message=Сообщение
+gui.radio.set_channel=Установить канал
+gui.radio.send=Отправить
+gui.radio.current_channel=Текущий канал: %d
+
+gui.civilstaterp.actions.title=РП Действия
+gui.actions.me=Действие /me
+gui.actions.do=Действие /do
+gui.actions.search=Обыскать игрока
+gui.actions.emote=Эмоции
+
+# Commands
+command.civilstaterp.suitcase.blocked=Невозможно поставить чемодан здесь - место заблокировано
+command.civilstaterp.suitcase.already_exists=У вас уже есть чемодан поблизости
+command.civilstaterp.suitcase.placed=Чемодан успешно размещен
+
+command.civilstaterp.profession.npc_spawned=НИП профессий создан
+command.civilstaterp.profession.spawn_failed=Не удалось создать НИП профессий
+command.civilstaterp.profession.invalid=Неверная профессия: %s
+command.civilstaterp.profession.no_data=Данные игрока не найдены
+command.civilstaterp.profession.requirements_not_met=Вы не соответствуете требованиям для %s
+command.civilstaterp.profession.started=Начата смена профессии на %s (Время: %d часов)
+
+command.civilstaterp.government.no_permission=У вас нет разрешения создавать правительственных чиновников
+command.civilstaterp.government.npc_spawned=НИП правительственного чиновника создан
+command.civilstaterp.government.spawn_failed=Не удалось создать НИП правительственного чиновника
+
+command.civilstaterp.ota.no_permission=У вас нет разрешения создавать отряды ОТА
+command.civilstaterp.ota.npc_spawned=Отряд ОТА создан
+command.civilstaterp.ota.spawn_failed=Не удалось создать отряд ОТА
+
+# Key bindings
+key.categories.civilstaterp=CivilStateRP
+key.civilstaterp.c_menu=Открыть Ц-Меню
+key.civilstaterp.show_cid=Показать ГО
+key.civilstaterp.quick_radio=Быстрая рация
+key.civilstaterp.toggle_hud=Переключить HUD
+key.civilstaterp.f4_menu=Открыть F4 Меню
+
+# Professions
+profession.citizen=Гражданин
+profession.loyalist=Лоялист
+profession.trusted_loyalist=Доверенный лоялист
+profession.civil_protection=Гражданская оборона
+profession.ota=Надзорные трансчеловеческие войска
+profession.government_official=Правительственный чиновник
+profession.resistance=Член сопротивления
+
+# Loyalty Tiers
+loyalty.exemplary=Образцовый
+loyalty.loyal=Лояльный
+loyalty.acceptable=Приемлемый
+loyalty.concerning=Вызывающий беспокойство
+loyalty.anti_citizen=Анти-гражданин
+
+# Status
+status.detained=ЗАДЕРЖАН
+status.wanted=В РОЗЫСКЕ
+status.lockdown=БЛОКИРОВКА
+status.active=АКТИВЕН
+
+# Ranks
+rank.cp.recruit=Рекрут
+rank.cp.officer=Офицер
+rank.cp.sergeant=Сержант
+rank.cp.lieutenant=Лейтенант
+rank.cp.captain=Капитан
+
+rank.ota.unit=Боец
+rank.ota.soldier=Солдат
+rank.ota.elite=Элита
+rank.ota.commander=Командир
+
+rank.go.clerk=Клерк
+rank.go.administrator=Администратор
+rank.go.deputy=Заместитель
+rank.go.director=Директор
+
+# Messages
+message.radio.channel_set=Канал рации установлен на %d
+message.radio.message_sent=Сообщение отправлено на канал %d
+message.search.initiated=Начат обыск игрока %s
+message.detain.success=%s был задержан
+message.detain.release=%s был освобожден
+message.loyalty.updated=Лояльность обновлена для %s: %d%%
+
+# Criminal System
+criminal.requirements_not_met=Вы не соответствуете требованиям для %s (Уровень %d, %d токенов)
+criminal.cannot_become=Вы не можете стать преступником с высокой лояльностью
+criminal.not_criminal=Вы не являетесь преступником!
+criminal.already_researching=Вы уже совершаете преступление
+criminal.field_locked=Тип преступления %s заблокирован
+criminal.level_required=Требуется уровень %d для %s
+criminal.research_started=Начато преступление %s (Время: %d минут)
+criminal.no_active_research=Нет активного преступления
+criminal.research_not_ready=Преступление не готово (%d минут осталось)
+criminal.research_completed=Преступление %s завершено! Награда: %d токенов
+criminal.breakthrough_reward=ПРОРЫВ! %s завершено с бонусом: %d токенов
+criminal.level_up=Криминальный уровень повышен до %d!
+criminal.welcome=Добро пожаловать в криминальный мир!
+
+# Shop System
+shop.purchase_success=Успешно куплено %s
+shop.insufficient_funds=Недостаточно токенов! Нужно: %d
+shop.no_permission=У вас нет доступа к этому предмету!
+shop.inventory_full=Недостаточно места в инвентаре!
+shop.category_basic=Основные предметы
+shop.category_tools=Инструменты
+shop.category_weapons=Оружие
+shop.category_special=Специальные предметы
+shop.category_restricted=Запрещённые предметы
+
+# F4 Menu
+f4.menu.title=HL2RP Города 17
+f4.menu.professions=Профессии
+f4.menu.shop=Магазин
+f4.menu.criminal=Криминал
+f4.menu.factions=Фракции
+f4.menu.inventory=Инвентарь
+f4.menu.settings=Настройки
+f4.menu.help=Помощь
+f4.menu.exit=Выход
+
+# F4 Menu Details
+f4.menu.header_title=§6§lHL2RP §f§lГорода 17
+f4.menu.player_tokens=§aТокены: §f%d
+f4.menu.player_loyalty=§bЛояльность: §f%d%%
+f4.menu.current_profession=§7Текущая профессия: §e%s
+f4.menu.current_rank=§7Ранг: §f%s
+f4.menu.profession_system=§6Система профессий
+f4.menu.profession_shops=§aМагазины по профессиям
+f4.menu.available_for=§7Доступно для: §e%s
+
+# GSR System
+gsr.registered=Успешно присоединился к ГСР как %s
+gsr.cannot_join=Не можете присоединиться к ГСР - недостаточная лояльность или неподходящая профессия
+gsr.not_worker=Вы не работник ГСР
+gsr.already_on_shift=Вы уже на смене
+gsr.shift_cooldown=Отдых между сменами: %d минут осталось
+gsr.shift_started=Начата смена %s
+gsr.not_on_shift=Вы не на смене
+gsr.shift_ended=Смена окончена. Заработано %d токенов, выполнено %d задач
+gsr.no_tasks=Задачи не назначены
+gsr.task_not_found=Задача не найдена
+gsr.task_already_completed=Задача уже выполнена
+gsr.task_completed=Задача выполнена: %s (+%d токенов)
+gsr.tasks_assigned=Назначено %d задач
+gsr.new_task_assigned=Новая задача: %s
+gsr.passive_earning=Пассивный заработок: +%d токенов
+gsr.work_bonus=Бонус за работу: +%d токенов (%s)
+gsr.overdue_tasks_warning=У вас %d просроченных задач! Эффективность снижена
+gsr.shift_auto_ended=Смена автоматически завершена (8 часов)
+gsr.not_chief=Только начальники ГСР могут назначать задачи
+gsr.worker_not_found=Работник %s не найден
+gsr.not_gsr_worker=%s не является работником ГСР
+gsr.task_assigned_to_worker=Задача "%s" назначена работнику %s
+gsr.special_task_received=Специальная задача от начальника: %s (+%d токенов)
+
+# Combine Equipment System
+combine.hev.access_denied=Доступ к HEV костюму запрещён - недостаточный уровень допуска
+combine.hev.not_equipped=HEV костюм не экипирован
+combine.hev.activated=HEV костюм активирован. Все системы в норме
+combine.hev.deactivated=HEV костюм деактивирован
+combine.hev.not_active=HEV костюм не активен
+combine.hev.power_low=Предупреждение: низкий заряд HEV костюма
+combine.hev.power_depleted=HEV костюм разряжен и деактивирован
+combine.equipment.access_denied=Доступ к %s запрещён - недостаточный уровень допуска
+combine.equipment.already_issued=Это оборудование уже выдано
+combine.equipment.issued=%s выдано
+combine.equipment.returned=%s возвращено
+combine.equipment.inventory_full=Недостаточно места в инвентаре
+combine.equipment.invalid=Неизвестный тип оборудования
+combine.clearance.citizen=Гражданин
+combine.clearance.loyalist=Лоялист
+combine.clearance.civil_protection=Гражданская Оборона
+combine.clearance.ota_soldier=Солдат ОТА
+combine.clearance.ota_elite=Элита ОТА
+combine.clearance.administrator=Администратор
+
+# City Scanner Surveillance System
+scanner.deployed=Городской сканер развернут в позиции %d, %d, %d
+scanner.zone_created=Зона наблюдения '%s' создана с %d сканерами
+scanner.violation_detected=Нарушение обнаружено: %s в позиции %d, %d, %d
+scanner.alert_triggered=Тревога активирована в целевой области
+scanner.no_permission=У вас нет прав на управление системой наблюдения
+scanner.target_scanned=Цель просканирована: %s
+scanner.contraband_found=Обнаружена контрабанда у игрока %s
+scanner.wanted_detected=Обнаружен разыскиваемый: %s
+scanner.detention_violation=Нарушение задержания: %s покинул разрешенную зону
+scanner.restricted_area=Несанкционированный доступ в запретную зону: %s
+scanner.surveillance_active=Зона под активным наблюдением
+scanner.surveillance_inactive=Наблюдение в данной зоне неактивно
+scanner.patrol_route_set=Маршрут патрулирования установлен
+scanner.scan_mode_patrol=Режим: Патрулирование
+scanner.scan_mode_tracking=Режим: Отслеживание цели
+scanner.scan_mode_alarmed=Режим: ТРЕВОГА
+scanner.scan_mode_searching=Режим: Поиск
+scanner.status_report=Отчет системы наблюдения: %d активных сканеров, %d зон
+
+gui.gsr_management.title=Управление ГСР
+gui.gsr.overview=Обзор
+gui.gsr.tasks=Задачи
+gui.gsr.stats=Статистика
+gui.gsr.join=Присоединиться как %s
+gui.gsr.start_shift=Начать смену
+gui.gsr.end_shift=Закончить смену
+gui.gsr.change_profession=Сменить профессию
+gui.gsr.opening=Открытие интерфейса ГСР...
+
+cmenu.gsr.not_member=Не член ГСР
+cmenu.gsr.click_to_join=Нажмите чтобы присоединиться к ГСР
+cmenu.gsr.current_profession=Профессия: %s
+cmenu.gsr.click_to_manage=Нажмите для управления ГСР
+
+# GSR Professions
+gsr.profession.cleaner=Уборщик
+gsr.profession.cook=Повар
+gsr.profession.medic=Медик
+gsr.profession.loader=Грузчик
+gsr.profession.machinist=Станочник
+gsr.profession.gsr_chief=Начальник ГСР
+
+# Resistance System
+resistance.registered=Успешно присоединились к сопротивлению как %s
+resistance.no_recruit_permission=У вас нет разрешения рекрутировать участников
+resistance.target_not_eligible=Цель не подходит для вербовки
+resistance.recruitment_cooldown=Откат рекрутинга: %d часов осталось
+resistance.recruitment_success=Успешно завербован %s в сопротивление
+resistance.welcomed=Добро пожаловать в сопротивление! Борьба за свободу!
+resistance.no_promote_permission=У вас нет разрешения повышать участников
+resistance.cannot_promote=Нельзя повысить этого участника
+resistance.promotion_success=Участник повышен до %s
+resistance.no_operation_permission=У вас нет разрешения управлять операциями
+resistance.already_in_operation=Вы уже участвуете в операции
+resistance.operation_started=Операция '%s' начата
+resistance.printer.created=Денежный принтер успешно создан
+resistance.printer.destroyed=Денежный принтер уничтожен
+resistance.printer.fuel_added=Топливо добавлено в принтер
+resistance.printer.paper_added=Бумага добавлена в принтер
+resistance.printer.production=Денежный принтер произвел %d токенов
+resistance.safehouse.created=Убежище '%s' создано
+resistance.safehouse.access_granted=Доступ к убежищу предоставлен
+resistance.safehouse.maintenance_due=Требуется оплата содержания убежища
+
+# Resistance Ranks
+resistance.rank.recruit=Рекрут
+resistance.rank.fighter=Боец
+resistance.rank.specialist=Специалист
+resistance.rank.squad_leader=Командир отряда
+resistance.rank.commander=Командир
+resistance.rank.leader=Лидер сопротивления
+
+# Resistance Equipment
+resistance.equipment.crowbar=Лом
+resistance.equipment.pipe_rifle=Самодельная винтовка
+resistance.equipment.shotgun=Дробовик
+resistance.equipment.assault_rifle=Штурмовая винтовка
+resistance.equipment.sniper_rifle=Снайперская винтовка
+resistance.equipment.makeshift_armor=Самодельная броня
+resistance.equipment.rebel_vest=Жилет повстанца
+resistance.equipment.combat_armor=Боевая броня
+resistance.equipment.radio_jammer=Глушилка радио
+resistance.equipment.medkit=Аптечка
+resistance.equipment.lockpick_set=Набор отмычек
+resistance.equipment.explosives=Взрывчатка
+
+# Scientist System
+scientist.cannot_become=Нельзя стать учёным - требования не выполнены
+scientist.welcome=Добро пожаловать в Научно-исследовательский центр Чёрная Меза!
+scientist.not_scientist=Вы не являетесь учёным
+scientist.already_researching=Вы уже проводите исследования
+scientist.field_locked=Область исследований '%s' не разблокирована
+scientist.level_required=Требуется %d уровень для исследования %s
+scientist.research_started=Начато исследование: %s (Ориентировочное время: %d минут)
+scientist.no_active_research=Нет активных исследований
+scientist.research_not_ready=Исследование не завершено. Осталось %d минут
+scientist.breakthrough_reward=ПРОРЫВ! Исследование %s завершено (+%d токенов)
+scientist.research_completed=Исследование завершено: %s (+%d токенов)
+scientist.level_up=Уровень учёного повышен до %d!
+
+# Research Fields
+scientist.field.theoretical_physics=Теоретическая физика
+scientist.field.experimental_physics=Экспериментальная физика
+scientist.field.biochemistry=Биохимия
+scientist.field.xenobiology=Ксенобиология
+scientist.field.materials_science=Материаловедение
+scientist.field.quantum_mechanics=Квантовая механика
+scientist.field.teleportation_tech=Телепортационные технологии
+scientist.field.dimensional_research=Исследование измерений
+
+# Black Mesa Facility
+block.civilstaterp.research_terminal=Исследовательский терминал
+block.civilstaterp.specimen_container=Контейнер образцов
+block.civilstaterp.test_chamber=Испытательная камера
+
+# Vortigaunt System
+vortigaunt.enslaved=*Порабощён Альянсом* - Вортигонт в подавленном состоянии
+vortigaunt.free=*Свободен* - Вортигонт готов к взаимодействию
+vortigaunt.relationship=Отношения: %s
+vortigaunt.communion_level=Уровень единения: %d/%d
+vortigaunt.abilities_unavailable=Способности недоступны - Вортигонт порабощён
+vortigaunt.heal_available=[H] Исцеление - Восстановить здоровье
+vortigaunt.heal_cooldown=[H] Исцеление (%dм)
+vortigaunt.energy_available=[E] Дар энергии - Получить токены
+vortigaunt.energy_cooldown=[E] Дар энергии (%dм)
+vortigaunt.communion_available=[C] Духовное единение - Укрепить связь
+vortigaunt.liberate_available=[L] Освобождение - Освободить порабощённых
+vortigaunt.heal_performed=*Исцеляющая энергия течёт через вас*
+vortigaunt.energy_gift=*Дарю вам часть нашей энергии* (+%d токенов)
+vortigaunt.communion_bond=*Наши души теперь связаны*
+vortigaunt.communion_strengthen=*Единение укрепляется... уровень %d*
+vortigaunt.liberate_success=*Освобождено %d наших братьев*
+vortigaunt.liberate_none=*Поблизости нет порабощённых*
+vortigaunt.relationship.stranger=Незнакомец
+vortigaunt.relationship.acquaintance=Знакомый
+vortigaunt.relationship.trusted_friend=Доверенный друг
+vortigaunt.relationship.close_ally=Близкий союзник
+vortigaunt.relationship.spiritual_brother=Духовное братство
+
+# Ration Distribution System
+ration.center.not_found=Центр раздачи пайков не найден
+ration.already_received=Вы уже получили свой дневной паёк
+ration.center.no_supplies=В центре раздачи закончились запасы. Попробуйте позже
+ration.inventory_full=Ваш инвентарь полон. Освободите место и попробуйте снова
+ration.distributed=Вы получили: %s
+ration.type.standard_ration=Стандартный гражданский паёк
+ration.type.loyalist_ration=Усиленный паёк лоялиста
+ration.type.worker_ration=Рабочий питательный набор
+ration.type.emergency_ration=Аварийное пропитание
+ration.type.punishment_ration=Штрафной паёк
+ration.effects.loyalist_bonus=*Вы чувствуете прилив сил и лояльности*
+ration.effects.worker_boost=*Рабочий паёк повышает вашу продуктивность*
+ration.effects.punishment_weakness=*Штрафной паёк ослабляет вас*
+ration.supply.grain=Зерно
+ration.supply.protein=Белок
+ration.supply.vegetables=Овощи
+ration.supply.supplements=Добавки
+ration.supply.water=Вода
+ration.status.optimal=ОПТИМАЛЬНО
+ration.status.functional=ФУНКЦИОНИРУЕТ
+ration.status.limited=ОГРАНИЧЕНО
+ration.status.critical=КРИТИЧЕСКОЕ
+ration.status.offline=ОТКЛЮЧЕНО
+ration.history.regular=Регулярное получение
+ration.history.moderate=Умеренное получение
+ration.history.irregular=Нерегулярное получение
+ration.history.no_data=Нет данных
+ration.command.center_created=Центр раздачи пайков '%s' создан в %s
+ration.command.center_not_found=Центр раздачи пайков '%s' не найден
+ration.command.supply_added=Добавлено %d единиц %s в глобальные запасы
+ration.command.no_centers=Центры раздачи пайков не зарегистрированы
+ration.command.distribution_failed=Не удалось раздать паёк. Проверьте статус центра
+ration.command.distribution_success=Паёк успешно роздан
+ration.gui.title=Центр раздачи пайков
+ration.gui.request_standard=Запросить стандартный паёк
+ration.gui.request_special=Запросить специальный паёк
+ration.gui.view_history=Посмотреть историю
+ration.gui.center_status=Статус центра
+ration.gui.close=Закрыть

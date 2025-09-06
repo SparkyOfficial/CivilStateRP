@@ -1,0 +1,7 @@
+// Add pack.mcmeta for resource pack
+{
+  "pack": {
+    "description": "CivilStateRP Mod Resources",
+    "pack_format": 6
+  }
+}

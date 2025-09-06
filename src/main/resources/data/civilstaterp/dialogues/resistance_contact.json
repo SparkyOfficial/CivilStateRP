@@ -1,0 +1,26 @@
+{
+  "npcType": "resistance_contact",
+  "greeting": "...*оглядывается по сторонам*... Что тебе нужно?",
+  "options": [
+    { "text": "Я слышал, что вы... помогаете людям.", "actionId": "hint_resistance", "condition": "low_loyalty" },
+    { "text": "Я хочу присоединиться к борьбе.", "actionId": "join_request", "condition": "low_loyalty" },
+    { "text": "У меня есть то, что вы просили.", "actionId": "complete_quest" },
+    { "text": "Простите, ошибся адресом.", "actionId": "leave" }
+  ],
+  "responses": {
+    "hint_resistance": { 
+      "text": "Возможно... но сначала нужно убедиться, что тебе можно доверять. Принеси мне 3 буханки хлеба - это покажет, что ты готов рисковать ради других.", 
+      "followUpAction": "assign_resistance_quest", 
+      "quest": {
+        "id": "resistance_proof", 
+        "description": "Принести 3 буханки хлеба контакту сопротивления", 
+        "objective": "Докажите свою преданность делу свободы", 
+        "requirements": {"items": "bread:3"}, 
+        "rewardAction": "join_resistance"
+      } 
+    },
+    "join_request": { "text": "Слишком рано. Сначала докажи, что тебе можно доверять.", "followUpAction": "assign_resistance_quest" },
+    "complete_quest": { "text": "Хорошо... Добро пожаловать в ряды борцов за свободу. Твоя заявка отправлена командованию.", "followUpAction": "join_resistance", "closesDialogue": true },
+    "leave": { "text": "*кивает и растворяется в тенях*", "closesDialogue": true }
+  }
+}

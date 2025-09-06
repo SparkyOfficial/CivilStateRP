@@ -1,0 +1,14 @@
+{
+  "npcType": "criminal_contact",
+  "greeting": "Эй... ты здесь по делу или просто заблудился?",
+  "options": [
+    { "text": "Мне нужна работа... особого рода.", "actionId": "seek_work", "condition": "low_loyalty" },
+    { "text": "Я готов к риску ради прибыли.", "actionId": "join_criminal" },
+    { "text": "Я передумал.", "actionId": "back_away" }
+  ],
+  "responses": {
+    "seek_work": { "text": "Понятно... У нас всегда есть дела для тех, кто не боится грязной работы. Добро пожаловать в семью.", "followUpAction": "join_criminal", "closesDialogue": true },
+    "join_criminal": { "text": "Смелый. Мне это нравится. Теперь ты один из нас.", "followUpAction": "join_criminal", "closesDialogue": true },
+    "back_away": { "text": "Умно. Забудь, что видел меня здесь.", "closesDialogue": true }
+  }
+}
